@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/soapi?useUnicode=true&characterEncoding=utf8&autoReconnect=true
+    username: root
+    password: 123456
+  mail:
+    host: smtp.126.com
+    username: danielchen21@outlook.com
+    password: 123456
+    default-encoding: utf-8
